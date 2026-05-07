@@ -1,12 +1,11 @@
 import requests
 
-# Replace with your actual OpenWeatherMap API key
-API_KEY = "YOUR_API_KEY"
+
+API_KEY = "9fa1c30f950bd71a3c585a54a0da8bc8delhi" 
+
 
 BASE_URL = "https://api.openweathermap.org/data/2.5/weather"
 
-# Take city name input
-city = input("Enter city name: ")
 
 # Parameters for API request
 params = {
